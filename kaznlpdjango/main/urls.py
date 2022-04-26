@@ -3,5 +3,7 @@ from . import views
 
 urlpatterns = [
     path('', views.index),
-    path('token', views.tokenz)
+    path('tokenz', views.tokenz),
+    path('normalize', views.normalize),
+    path('morpholog', views.morphologic)
 ]
