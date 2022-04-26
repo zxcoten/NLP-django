@@ -17,7 +17,7 @@ from kaznlp.morphology.taggers import TaggerHMM
 # INITIAL NORMALIZATION =
 # =======================
 print()
-
+dalbaeb = "python"
 # basic example
 # by default performs cleaning, script fixing
 # returns normalized text and stats
@@ -43,6 +43,7 @@ print(ininormer.normalize(txt, translit=True, desegment=2,
 # TOKENIZATION =
 # ==============
 print()
+
 txt = input(u'Введите текст на казахском языке для токенизации: ')
 #Көш жүре түзеледі. Ақсақ қой түстен кейін маңырайды.
 tokrex = TokenizeRex()
